@@ -12,6 +12,6 @@ public class GraphQlConfig {
     @Bean
     public RuntimeWiringConfigurer runtimeWiringConfigurer() {
         return wiringBuilder -> wiringBuilder
-                .scalar(ExtendedScalars.GraphQLBigDecimal);
+                .scalar(ExtendedScalars.GraphQLBigDecimal); // add extended scalar for type BigDecimal
     }
 }

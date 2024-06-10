@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 
 import java.util.List;
 
+// Controller for this application. Here is the function that will be called upon querying happen at graphQL endpoint
 @Controller
 public class ProductController {
     private final ProductRepository repository;

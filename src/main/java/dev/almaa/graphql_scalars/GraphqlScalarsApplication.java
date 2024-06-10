@@ -31,7 +31,7 @@ public class GraphqlScalarsApplication {
 			);
 
 
-			repository.saveAll(products);
+			repository.saveAll(products); // Populate data in H2 database.
 
 			repository.findAll().forEach(System.out::println);
 
